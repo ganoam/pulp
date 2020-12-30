@@ -18,15 +18,16 @@
 #  work, make sure to checkout a branch.
 #
 
-pulp_soc:
-  commit: v1.1.0
+
+pulp_soc: # has ibex in ipslist -> use my feature branch
+  commit: acc-intf
   server: https://github.com
-  group:  pulp-platform
+  group:  ganoam
 
 pulp_cluster:
-  commit: pulp_cluster_v1.2
+  commit: acc-intf
   server: https://github.com
-  group:  pulp-platform
+  group:  ganoam
 
 tbtools:
   commit: v0.1
